@@ -1,8 +1,6 @@
 package test;
 
 import org.junit.*;
-import test.Maths;
-
 public class MathsTest {
     Maths maths;
     @Before

@@ -1,11 +1,13 @@
+import Unit.Fib;
+
 public class Main {
-    public class maths{}
     public static void main(String[] args) {
         for (int i = 0; i<25; i++) {
-            for (int j = 0; i < 25; i++) {
-                System.out.println(i);
+            for (int j = 0; j < 25; j++) {
+                System.out.println(j);
             }
-            fibo fibo = new fibo(10);
+            new Fib();
+
         }
     }
 }

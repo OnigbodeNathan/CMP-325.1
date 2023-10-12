@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="87c5bdca-30b2-449c-ac62-3a4a7f256500" name="Changes" comment="first">
-      <change afterPath="$PROJECT_DIR$/src/fibo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Unit/Fib.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/FibTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fibo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/MathsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/MathsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,25 +38,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Downloaded.Files.Path.Enabled": "true",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Nathan/IdeaProjects/unit&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager">
+}</component>
+  <component name="RunManager" selected="JUnit.FibTest.fibonacciTest">
+    <configuration name="FibTest.fibonacciTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="unit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.FibTest" />
+      <option name="METHOD_NAME" value="fibonacciTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MathsTest.checkIfANumberIsPrime" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unit" />
       <extension name="coverage">
@@ -82,8 +102,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MathsTest.checkTheSumOfTwoNumbersEqualsThree" />
+        <item itemvalue="JUnit.FibTest.fibonacciTest" />
         <item itemvalue="JUnit.MathsTest.checkIfANumberIsPrime" />
+        <item itemvalue="JUnit.MathsTest.checkTheSumOfTwoNumbersEqualsThree" />
       </list>
     </recent_temporary>
   </component>
@@ -95,7 +116,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1697030188832</updated>
-      <workItem from="1697030191248" duration="5345000" />
+      <workItem from="1697030191248" duration="6986000" />
+      <workItem from="1697096396746" duration="4301000" />
+      <workItem from="1697107652391" duration="688000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1697030748999</created>
@@ -125,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697034533696</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="first">
+      <created>1697035867767</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1697035867767</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,15 +182,24 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>2</line>
+          <line>3</line>
           <properties class="Main" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/Maths.java</url>
+          <line>6</line>
+          <properties class="test.Maths" method="primeNumbers">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/fibo.java</url>
+          <url>file://$PROJECT_DIR$/src/Unit/Fib.java</url>
           <line>9</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
